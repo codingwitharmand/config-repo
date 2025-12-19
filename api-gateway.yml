@@ -2,6 +2,8 @@ server:
   port: 8080
 
 spring:
+  config:
+    import: configserver:http://localhost:8888
   application:
     name: api-gateway
 
@@ -18,7 +20,7 @@ spring:
             - Path=/api/orders/**
           filters:
             - AddRequestHeader=X-Gateway-Request, Gateway-Header
-            
+
         - id: inventory-service
           uri: lb://inventory-service
           predicates:
