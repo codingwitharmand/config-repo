@@ -1,25 +1,27 @@
 server:
-  port: 8090
+  port: 8080
 
 spring:
   cloud:
     gateway:
-    discovery:
-      locator:
-        enabled: true
-        lower-case-service-id: true
-    routes:
-      - id: order-service
-        uri: lb://order-service
-        predicates:
-          - Path=/api/orders/**
-        filters:
-          - AddRequestHeader=X-Gateway-Request, Gateway-Header
+      server:
+        webflux:
+          discovery:
+            locator:
+              lower-case-service-id: true
+              enabled: true
+          routes:
+            - id: order-service
+              uri: lb://order-service
+              predicates:
+                - Path=/api/orders/**
+              filters:
+                - AddRequestHeader=X-Gateway-Request, Gateway-Header
 
-      - id: inventory-service
-        uri: lb://inventory-service
-        predicates:
-          - Path=/api/inventory/**
+            - id: inventory-service
+              uri: lb://inventory-service
+              predicates:
+                - Path=/api/inventory/**
 
 eureka:
   client:
