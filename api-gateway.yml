@@ -8,18 +8,18 @@ spring:
       locator:
         enabled: true
         lower-case-service-id: true
-      routes:
-        - id: order-service
-          uri: lb://order-service
-          predicates:
-            - Path=/api/orders/**
-          filters:
-            - AddRequestHeader=X-Gateway-Request, Gateway-Header
+    routes:
+      - id: order-service
+        uri: lb://order-service
+        predicates:
+          - Path=/api/orders/**
+        filters:
+          - AddRequestHeader=X-Gateway-Request, Gateway-Header
 
-        - id: inventory-service
-          uri: lb://inventory-service
-          predicates:
-            - Path=/api/inventory/**
+      - id: inventory-service
+        uri: lb://inventory-service
+        predicates:
+          - Path=/api/inventory/**
 
 eureka:
   client:
