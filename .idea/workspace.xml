@@ -4,14 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d3eda3a-4f24-42f5-9695-31a78c69eeac" name="Changes" comment="refactor: remove service and gateway configuration files" />
+    <list default="true" id="6d3eda3a-4f24-42f5-9695-31a78c69eeac" name="Changes" comment="refactor: remove service and gateway configuration files">
+      <change afterPath="$PROJECT_DIR$/.idea/config-repo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="7" />
+    <option name="cachedIndexableFilesCount" value="6" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FormatOnSaveOptions">
@@ -93,7 +100,9 @@
       <workItem from="1766260062430" duration="25000" />
       <workItem from="1766263698545" duration="200000" />
       <workItem from="1766324254838" duration="29000" />
-      <workItem from="1766325508321" duration="407000" />
+      <workItem from="1766325508321" duration="2444000" />
+      <workItem from="1766328166592" duration="325000" />
+      <workItem from="1766328996125" duration="669000" />
     </task>
     <task id="LOCAL-00001" summary="refactor: remove spring config server import from service configs">
       <option name="closed" value="true" />
