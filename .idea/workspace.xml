@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d3eda3a-4f24-42f5-9695-31a78c69eeac" name="Changes" comment="refactor: remove service and gateway configuration files">
-      <change afterPath="$PROJECT_DIR$/.idea/config-repo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="6d3eda3a-4f24-42f5-9695-31a78c69eeac" name="Changes" comment="fix: add IntelliJ project setup files and correct configuration indentation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,7 +98,7 @@
       <workItem from="1766324254838" duration="29000" />
       <workItem from="1766325508321" duration="2444000" />
       <workItem from="1766328166592" duration="325000" />
-      <workItem from="1766328996125" duration="669000" />
+      <workItem from="1766328996125" duration="2659000" />
     </task>
     <task id="LOCAL-00001" summary="refactor: remove spring config server import from service configs">
       <option name="closed" value="true" />
@@ -176,7 +172,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766263879053</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="fix: add IntelliJ project setup files and correct configuration indentation">
+      <option name="closed" value="true" />
+      <created>1766330083976</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1766330083976</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,6 +195,7 @@
     <MESSAGE value="fix: simplify and consolidate route configuration in api-gateway" />
     <MESSAGE value="fix: update api-gateway port to 8080" />
     <MESSAGE value="refactor: remove service and gateway configuration files" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: remove service and gateway configuration files" />
+    <MESSAGE value="fix: add IntelliJ project setup files and correct configuration indentation" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: add IntelliJ project setup files and correct configuration indentation" />
   </component>
 </project>
